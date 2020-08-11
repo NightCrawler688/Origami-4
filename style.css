@@ -1,0 +1,87 @@
+h1{
+    color:blue;
+}
+p{
+    color:brown;
+}
+ul{
+    color: blue;
+}
+.grid{
+    background-color: aqua;
+    display: flex;
+    justify-content: center
+}
+.grid1{
+    background-color: aquamarine;
+}
+.header{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: aquamarine;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin: 50px;
+}
+body{
+    margin: 0px;
+    background-color: powderblue;
+}
+.aboutMe h1{
+    text-align: center;
+    }
+    .menu1{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .myPicture{
+        display: flex;
+        justify-content: center;
+    }
+    a:link{
+        color: salmon;
+    }
+    a:visited{
+        color: royalblue;
+    }
+    .item{
+        position: relative;
+    
+    }
+    .item p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+        
+    }
+    .item:hover p{
+        opacity: 1;
+    }
+    .item:hover img{
+        opacity: 0.33;
+    }
+    .grid:hover p{
+        color:royalblue;
+    }
+    
+    h1:hover{
+         color: skyblue;
+    }
+    .item:hover p{
+        color: slateblue;
+    }
+    .myPicture:hover img{
+        color: snow;
+    }
+    .Description:hover p{
+        color: tan;
+    }
+    
+    
